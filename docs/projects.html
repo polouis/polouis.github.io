@@ -1,0 +1,10 @@
+---
+permalink: /projects.html
+layout: default
+---
+
+{% for project in site.projects %}
+<h2>{{ project.title }}</h2>
+<i>{{ project.description }}</i>
+<p>{{ project.content | markdownify }}</p>
+{% endfor %}
