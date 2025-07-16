@@ -1,13 +1,14 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Pierre-Olivier Louis
-
 theme: ["PaperMod"]
+enableEmoji: true
 
 params:
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: "Hi there :wave:"
+    ProfilePicture: "https://avatars.githubusercontent.com/u/4612680?v=4"
+    Content: I'll talk about software development, personnal projects, and other stuff.
 
   socialIcons: # optional
     - name: "bluesky"
