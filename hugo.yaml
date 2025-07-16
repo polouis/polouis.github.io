@@ -17,3 +17,8 @@ params:
       url: "https://github.com/polouis"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/pierre-olivier-louis-962635"
+
+# Github pages integration
+caches:
+  images:
+    dir: :cacheDir/images
