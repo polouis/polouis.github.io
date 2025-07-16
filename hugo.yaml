@@ -3,6 +3,7 @@ languageCode: en-us
 title: Pierre-Olivier Louis
 theme: ["PaperMod"]
 enableEmoji: true
+sectionPagesMenu: main
 
 params:
   homeInfoParams:
