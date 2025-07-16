@@ -1,0 +1,18 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Pierre-Olivier Louis
+
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: "bluesky"
+      url: "https://bsky.app/profile/polouis.bsky.social"
+    - name: "github"
+      url: "https://github.com/polouis"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/pierre-olivier-louis-962635"
