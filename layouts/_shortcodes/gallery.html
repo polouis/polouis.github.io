@@ -1,0 +1,19 @@
+{{ $subdir := .Get 0 | default "images" }}
+{{ $pattern := printf "%s/*" $subdir }}
+{{ $images := .Page.Resources.Match $pattern }}
+{{ if $images }}
+<div class="photo-gallery">
+  {{ range $images }}
+    <div class="gallery-item">
+      <img class="
+        gallery-image
+        {{- if eq site.Params.defaultTheme `dark` -}}
+        {{- print " test" }}
+        {{- end -}}
+      " src="{{ .RelPermalink }}" alt="{{ .Title | default .Name }}" loading="lazy">
+    </div>
+  {{ end }}
+</div>
+{{ else }}
+<p class="no-images">No images found in {{ $subdir }} directory.</p>
+{{ end }}
