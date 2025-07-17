@@ -3,7 +3,7 @@ draft: true
 title: 'Film photography'
 draft: false
 cover:
-  image: /galleries/argentic/cover.jpg
+  image: /galleries/film-photography/cover.jpg
   alt: 'overlapping pictures on film photo'
 # categories: [development, publishing]
 tags: [street photography,film photography,canon]
