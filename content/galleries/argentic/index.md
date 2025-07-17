@@ -1,6 +1,7 @@
 ---
 draft: true
 title: 'Argentic'
+draft: false
 cover:
   image: /galleries/argentic/cover.jpg
   alt: 'overlapping pictures on film photo'
