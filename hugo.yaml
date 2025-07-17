@@ -19,6 +19,10 @@ params:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/pierre-olivier-louis-962635"
 
+  mainSections:
+    - "posts"
+    - "galleries"
+
 # Github pages integration
 caches:
   images:
