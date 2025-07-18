@@ -10,6 +10,7 @@ params:
     Title: "Hi there :wave:"
     ProfilePicture: "https://avatars.githubusercontent.com/u/4612680?v=4"
     Content: I'll talk about software development, personnal projects, and other stuff.
+  goatcounter: polouisgithubio
 
   socialIcons: # optional
     - name: "bluesky"
