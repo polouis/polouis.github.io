@@ -109,8 +109,9 @@ jobs:
       - name: Install pa11y-ci
         run: npm install -g pa11y-ci
       - name: Run accessibility tests
-        run: pa11y-ci --config .pa11yci
+        run: pa11y-ci --config .pa11yci --reporter html > pa11y-report.html
       - name: Upload accessibility report
         uses: actions/upload-artifact@v4
         with:
           name: pa11y-report
+          path: pa11y-report.html
